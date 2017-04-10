@@ -1,0 +1,93 @@
+.modul3 {
+  width: 1170px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.modul3 .section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.modul3 .section-title h3 {
+  font-size: 32px;
+  line-height: 40px;
+  text-transform: uppercase;
+  display: inline-block;
+  border-width: 1px 0;
+  border-style: solid;
+  padding: 5px 15px 1px;
+  margin: 0;
+}
+.modul3 .section-title .subtitle {
+  font-style: italic;
+  line-height: 1;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  color: #D1A054;
+}
+.modul3 #categories-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+.modul3 #categories-wrapper #categories-list {
+  margin-bottom: -30px;
+}
+.modul3 #categories-wrapper #categories-list .product-category {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 30px;
+}
+.modul3 #categories-wrapper #categories-list a:after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  right: 5px;
+  left: 5px;
+  z-index: 11;
+  box-shadow: inset 0 0 5px rgba(255,255,255,0.5), 0 0 5px rgba(0,0,0,0.5);
+}
+.modul3 #categories-wrapper #categories-list h2 {
+  font-size: 20px;
+  text-align: center;
+  z-index: 10;
+  color: #fff;
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  margin: 0;
+}
+.modul3 #categories-wrapper #categories-list img {
+  transition: all 4s linear;
+  width: 100%;
+}
+.modul3 #categories-wrapper #categories-list img {
+  vertical-align: top;
+}
+.modul3 #categories-wrapper #categories-list a:hover .gradient {
+  height: 100%;
+}
+.modul3 #categories-wrapper #categories-list .gradient {
+  background: linear-gradient(to top,rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 100%);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  transition: all 0.25s ease;
+}
+.modul3 #categories-wrapper #categories-list .gradient {
+  height: 30%;
+}
+.modul3 #categories-wrapper #categories-list li {
+  list-style: none;
+  float: left;
+}
+.modul3 #categories-wrapper #categories-list li a {
+  display: block;
+  min-height: 100px;
+  background-color: #1b2024;
+}
+.modul3 #categories-wrapper #categories-list li a:hover img {
+  transform: perspective(1px) scale(1.1) translateZ(0);
+}
