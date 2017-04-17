@@ -1,9 +1,20 @@
 <html>
 <head>
-
+<script src="js/jquery-2.2.4.min.js" type="text/javascript"></script>
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-
-
+  
+  <script type="text/javascript">
+      $(document).ready(function(e) {
+          var but = $(".swiper-pagination-bullet-active");
+          var set = $("#categories-wrapper");
+          but.click(function(e) {
+              var sec = $("article section:nth-child(1)");
+              sec.hide("fast","linear",function(){
+                  set.append($(this));
+              });
+          });
+      });
+  </script>
   <?php
   if (!class_exists('lessc')) {
     include ('./libs/lessc.inc.php');
@@ -26,13 +37,10 @@
             
         </div>
         <div class="clearfix"></div>
-        
+        <div class="container">  
         <div id="categories-wrapper" > 
-            
-            <ul id="categories-list" >
-                <div class="row">
-                    <div class="col-md-3">
-		<li class="item swiper-slide-active" style="width: 260px;">
+            <ul id="categories-list" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;" >   
+		<li class="item swiper-slide-active" style="width: 270px; margin-right: 30px">
                     <div class="product-category">
                         <a href="">
                             <h2>Salads</h2>	
@@ -41,9 +49,8 @@
                         </a>
                     </div>
                 </li>
-                    </div>
-                     <div class="col-md-3">
-                <li class="item swiper-slide-next" style="width: 260px; ">
+                    
+                <li class="item swiper-slide-next" style="width: 270px; margin-right: 30px">
                     <div class="product-category">
                         <a href="">
                             <h2>Pizza</h2>	
@@ -52,9 +59,9 @@
                         </a>
                     </div>
                 </li>
-                     </div>
-                  <div class="col-md-3">
-                <li class="item" style="width: 260px;">
+                    
+                  
+                <li class="item" style="width: 270px; margin-right: 30px">
                     <div class="product-category ">
                         <a href="">
                             <h2>Desserts</h2>	
@@ -63,9 +70,8 @@
                         </a>
                     </div>
                 </li>
-                  </div>
-                <div class="col-md-3">
-                <li class="item" style="width: 260px;">
+                  
+                <li class="item" style="width: 270px; margin-right: 30px">
                     <div class="product-category ">
                         <a href="">
                             <h2>Soups</h2>	
@@ -74,21 +80,24 @@
                         </a>
                     </div>
                 </li>
-                </div>
-                     <div class="col-md-3">
-                <li class="item" style="width: 260px;">
-                    <div class="product-category">
+                
+                <li class="item" style="width: 270px; margin-right: 30px">
+                    <div class="product-category ">
                         <a href="">
                             <h2>Drinks</h2>	
                             <img alt="" src="images/cat-2.jpg" > 			
                             <span class="gradient"></span>
                         </a>
                     </div>
-                </li>
-                     </div>
-              </div>
-            </ul>
-       </div>
+                </li>    
+            </ul> 
+        </div>
+             <div class="clearfix"></div>
+             <div class="swiper-pagination bullet-5 swiper-pagination-clickable swiper-pagination-bullets">
+                <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+                <span class="swiper-pagination-bullet"></span>
+            </div>
+      </div>
     </div>
 </body>
 </html>
