@@ -1,0 +1,13 @@
+.list ul{
+	list-style:none;
+	float: left;
+}
+.list ul li{
+	display: inline-block;
+}
+.modul0{
+	background-color: black;
+	color: white;
+}
+
+

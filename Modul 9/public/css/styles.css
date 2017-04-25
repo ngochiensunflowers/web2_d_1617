@@ -1,0 +1,31 @@
+.Modul9{
+	background-color: black;
+	color: white;
+}
+.us{
+	color: #D1A054;
+}
+.contact{
+	background-color: #1b2024;
+	text-align: center;
+}
+.contact ul{
+	list-style:none;
+}
+.Follow{
+	text-align: center;
+}
+.widgettitle{
+	color: #D1A054;
+}
+footer{
+	text-align: center;
+	background-color: black;
+	color: white;y
+}
+col-md-6{
+	width: 50%;
+}
+col-xs-12{
+	width: 100%;
+}

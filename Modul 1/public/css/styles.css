@@ -1,0 +1,13 @@
+.navbar-nav > li > a{
+	padding:20px;
+	color:white;
+}
+.navbar-default{
+	background: none;
+}
+.navbar ul li a:hover, .active a{
+	color:orange !important;
+}
+.modul2{
+	color: white;
+}
