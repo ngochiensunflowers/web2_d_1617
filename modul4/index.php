@@ -1,9 +1,9 @@
 <html>
 <head>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-  <link href="css/font-awesome.css" rel="stylesheet" type="text/css"/>
   <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+  <link href="css/swiper.css" rel="stylesheet" type="text/css"/>
   <?php
   if (!class_exists('lessc')) {
     include ('./libs/lessc.inc.php');
@@ -12,14 +12,13 @@
   $less->compileFile('less/1.less', 'css/1.css');
   ?>
   <link href="css/1.css" rel="stylesheet" type="text/css" />
-
 </head>
 
 <body>
     <div class="modul4">
-       <section id="promo-slider" class="swiper-container-horizontal">
-<!--	    <div class="swiper-wrapper" style="transform: translate3d(-702px, 0px, 0px); transition-duration: 0ms;">-->
-		<div class="swiper-slide item swiper-slide-active" style="background-image: url(images/promo.jpg);">
+        <section class="swiper-container">
+            <div class="swiper-wrapper">
+		<div class="swiper-slide" style="background-image: url(images/promo.jpg);">
                     <div class="center">
 			<div class="table-cell">
                             <div class="details">
@@ -31,7 +30,7 @@
                         </div>
                     </div>
                 </div>
-            <div class="swiper-slide item swiper-slide-active" style="background-image: url(images/slide-1.jpg); ">
+            <div class="swiper-slide" style="background-image: url(images/slide-1.jpg); ">
                     <div class="center">
                         <div class="table-cell">
                             <div class="details">
@@ -43,14 +42,15 @@
                         </div>
                     </div>
                 </div>
-<!--            </div>-->
-		<div class="slider-button-prev fa fa-caret-left"></div>
-		<div class="slider-button-next fa fa-caret-right swiper-button-disabled"></div>			
-		<div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
-                    <span class="swiper-pagination-bullet"></span>
-                    <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
-                </div>	
+            </div>
+             <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        
         </section>
     </div>
+    <script src="js/swiper.min.js" type="text/javascript"></script>
+    <script src="js/scrips.js" type="text/javascript"></script>
 </body>
 </html>

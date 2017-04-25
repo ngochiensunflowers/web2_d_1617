@@ -1,6 +1,6 @@
 .modul4
 {
-    #promo-slider {
+    .swiper-container {
     position: relative;
     overflow: hidden;
     height: 470px;
@@ -24,7 +24,7 @@
         margin-bottom: 15px;
         text-transform: uppercase;
         }
-    .item {
+    .swiper-slide {
     background-size: cover;
     background-position: 50%;
     position: relative;
@@ -39,8 +39,17 @@
     .swiper-pagination {
     bottom: 30px;
 }
+.carousel-control{
+.right {
+   // right: 15px;
+    left: auto;
+}
+.right:hover {
+   background:  none;
+}
+}
     }
-    .swiper-pagination-bullet {
+/*    .swiper-pagination-bullet {
 	width: 10px;
 	height: 10px;
 	background: rgba(0,0,0,0.1);
@@ -87,7 +96,7 @@
 .slider-button-prev:hover {
 	opacity: 0.9;
 	color: #D1A054;
-}
+}*/
 }
     
           
