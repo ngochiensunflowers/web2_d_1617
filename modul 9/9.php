@@ -1,13 +1,22 @@
-<!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="public/bootstrap-3.3.7-dist/css/bootstrap.min.css">
-	<link rel="stylesheet"/ type="text/css" href="public/css/styles.css">
-</head>
-<body>
-	<div class="Modul9">
-		<div class="container">
+    <head>
+        <title>Restaurant</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+       
+        <?php
+        if (!class_exists('lessc')) {
+            include ('./libs/lessc.inc.php');
+        }
+        $less = new lessc;
+        $less->compileFile('less/5.less', 'css/5.css');
+        ?>
+         <link href="css/5.css" rel="stylesheet" type="text/css"/>
+
+    </head>
+    <body>
+        <div class="modul9">
+            <div class="container">
 			<div class="row">
 				<div class="col-md-6 col-xs-12">
 					<div class="contact">
@@ -34,9 +43,9 @@
 				</div>
 			</div>
 		</div>
-	</div>
-<footer>
-	<p>© 2017 Cristiano. All rights reserved</p>
+        </div>
+        <footer>
+            <p>&copy; 2017 Cristiano. All rights reserved</p>
 </footer>
-</body>
+    </body>
 </html>
