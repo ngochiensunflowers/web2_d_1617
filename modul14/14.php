@@ -1,13 +1,22 @@
-<!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="public/bootstrap-3.3.7-dist/css/bootstrap.min.css">
-	<link rel="stylesheet"/ type="text/css" href="public/css/styles.css">
-</head>
-<body>
-	<div class=" Modul 14">
-		<div class="container">
+    <head>
+        <title>Restaurant</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+       
+        <?php
+        if (!class_exists('lessc')) {
+            include ('./libs/lessc.inc.php');
+        }
+        $less = new lessc;
+        $less->compileFile('less/14.less', 'css/14.css');
+        ?>
+         <link href="css/14.css" rel="stylesheet" type="text/css"/>
+
+    </head>
+    <body>
+        <div class="modul14">
+            <div class="container">
 			<h3>ADD A REVIEW</h3>
 			<i class="fa fa-star" aria-hidden="true"></i>
 			<i class="fa fa-star" aria-hidden="true"></i>
@@ -18,7 +27,7 @@
 				<div class="col-md-12">
 					<p class="comment">
 						<label for="comment">Your Review</label><br>
-						<textarea name="review" rows="8" cols="100" aria-required = "true" ></textarea>
+						<textarea name="review" rows="8" cols="115" aria-required = "true" ></textarea>
 					</p>
 				</div>
 			</div>
@@ -43,5 +52,5 @@
 			</p>
 		</div>
 	</div>
-</body>
+    </body>
 </html>
