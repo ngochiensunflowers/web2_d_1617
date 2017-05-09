@@ -28,6 +28,7 @@
 .modul1 .logo .text-logo * {
   line-height: 1;
   margin: 0;
+  margin-left: -10px;
 }
 .modul1 .nav nav-tabs navbar-right {
   text-transform: uppercase;
