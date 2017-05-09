@@ -29,8 +29,8 @@ element.style {
 .modul3 .swiper-container {
     overflow: hidden;
    position: relative;
-   width: 1210px;
-   height: 450px;
+   width: 1400px;
+   height: 430px;
 }
 .modul3 .swiper-container .item {
   overflow: hidden;
@@ -79,6 +79,12 @@ element.style {
 }
 .modul3 .swiper-container .gradient {
   height: 30%;
+}
+.modul3 .swiper-container ul{
+    padding-left: 80px;
+}
+.modul3 .swiper-container ul li {
+  float: left;
 }
 .modul3 .swiper-container li .swiper-slide {
   width: 270px;

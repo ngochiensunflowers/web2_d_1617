@@ -13,7 +13,7 @@
 		<li class="swiper-slide" style="width: 270px; margin-right: 30px">
                     <div class="item">
                         <a href="">
-                            <h2>Salads</h2>	
+                            <h2><?php echo $shops[1]['cate'] ?></h2>	
                             <img alt="" src="<?php echo $shops[1]['img'] ?>"> 			
                             <span class="gradient"></span>
                         </a>
@@ -24,7 +24,7 @@
                     <div class="item">
                         <a href="">
                             <h2><?php echo $shops[0]['cate'] ?></h2>	
-                            <img alt="" src="images/cat-1.jpg" > 			
+                            <img alt="" src="<?php echo $shops[0]['img'] ?>" > 			
                             <span class="gradient"></span>
                         </a>
                     </div>
