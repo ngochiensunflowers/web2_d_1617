@@ -1,0 +1,12 @@
+<html>
+  @include('products.head')
+<body>
+@include('products.models0')
+@include('products.models1')
+@include('products.models12')
+@include('products.models13')
+@include('products.models14')
+@include('products.models7')
+@include('products.models9')
+</body>  
+</html>

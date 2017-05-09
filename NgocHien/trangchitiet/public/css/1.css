@@ -1,0 +1,60 @@
+.modul1 {
+  background: black;
+  color: white;
+  position: relative;
+  z-index: 10;
+  pading: 20px;
+}
+.modul1 .logo {
+  float: left;
+}
+.modul1 .logo .text-logo {
+  text-align: center;
+  display: inline-block;
+  line-height: 1;
+  vertical-align: middle;
+  margin-top: 5px;
+}
+.modul1 .logo text-logo h2 {
+  font-size: 30px;
+}
+.modul1 .logo .text-logo a {
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+}
+.modul1 .logo .text-logo .text-logo a:hover,
+.modul1 .logo .text-logo .active a {
+  color: #D1A054;
+}
+.modul1 .logo .text-logo * {
+  line-height: 1;
+  margin: 0;
+}
+.modul1 .nav nav-tabs navbar-right {
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 80px;
+  margin: 0;
+}
+.modul1 .nav nav-tabs navbar-right li {
+  color: white;
+}
+.modul1 .nav nav-tabs navbar-right li a {
+  display: inline-block;
+  padding: 0 15px;
+}
+.modul1 .nav-tabs>li>a {
+  color: #fff;
+}
+.modul1 .nav-tabs>li.active>a,
+.modul1 .nav-tabs>li.active>a:focus,
+.modul1 .nav-tabs>li.active>a:hover {
+  color: #D1A054;
+  background: none;
+  border: none;
+  border-bottom: none;
+}
+.modul1 .nav-tabs {
+  border-bottom: none;
+}

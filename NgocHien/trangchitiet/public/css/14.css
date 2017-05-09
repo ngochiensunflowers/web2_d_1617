@@ -1,0 +1,62 @@
+.modul14 {
+  text-align: start;
+  font-weight: none;
+}
+.modul14 h3 {
+  line-height: 28px;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+.modul14 textarea {
+  padding: 20px;
+  height: 165px;
+  resize: none;
+  font: 14px/1 'Open Sans', sans-serif;
+  border: 1px solid #ddd;
+  background-color: #fafafa;
+  display: inline-block;
+  width: 100%;
+}
+.modul14 #author {
+  font: 14px/1 'Open Sans', sans-serif;
+  border: 1px solid #ddd;
+  background-color: #fafafa;
+  height: 45px;
+  padding: 0 20px;
+  display: inline-block;
+  width: 100%;
+}
+.modul14 #email {
+  font: 14px/1 'Open Sans', sans-serif;
+  border: 1px solid #ddd;
+  background-color: #fafafa;
+  height: 45px;
+  padding: 0 20px;
+  display: inline-block;
+  width: 100%;
+}
+.modul14 .fa {
+  font-family: 'FontAwesome';
+  margin: 0;
+  height: 18px;
+  -webkit-font-smoothing: antialiased;
+}
+.submit {
+  font-family: 'Lora', serif;
+  border: 0 none;
+  background: none;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-size: 12px;
+  display: inline-block;
+  text-transform: uppercase;
+  width: auto;
+  background-color: #1b2024;
+  color: #fff;
+  padding: 0 45px;
+  transition: all 0.3s ease;
+  height: 45px;
+}
+.submit:hover {
+  background-color: #D1A054;
+}

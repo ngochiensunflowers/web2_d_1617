@@ -1,0 +1,135 @@
+.modul-13 #reviews {
+  width: 770px;
+  margin: 60px 0;
+}
+.modul-13 h1.title {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 30px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.modul-13 ol {
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+.modul-13 .commentlist .comment {
+  background-color: #fafafa;
+  border: 1px solid #eee;
+  border-bottom-width: 4px;
+  padding: 30px;
+  margin-bottom: 30px;
+  list-style: none;
+}
+.modul-13 .commentlist .comment img {
+  float: left;
+  margin-right: 15px;
+  border-radius: 50% 50% 50% 50%;
+}
+.modul-13 .commentlist img {
+  vertical-align: top;
+  max-width: 100%;
+  height: auto;
+}
+.modul-13 .commentlist .star-rating {
+  float: right;
+}
+.modul-13 .commentlist .star-rating {
+  font-family: 'FontAwesome';
+  overflow: hidden;
+  position: relative;
+  height: 14px;
+  line-height: 1;
+  letter-spacing: 1px;
+  font-size: 14px;
+  width: 70px;
+  color: #D1A054;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.modul-13 .commentlist .star-rating span {
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding-top: 1.5em;
+}
+.modul-13 .commentlist .star-rating span:before {
+  content: "\f005\f005\f005\f005\f005";
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+.modul-13 .commentlist .star-rating:before {
+  content: "\f005\f005\f005\f005\f005";
+  color: #d3ced2;
+  float: left;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.modul-13 .commentlist p {
+  margin: 0;
+}
+.modul-13 .commentlist1 .comment {
+  background-color: #fafafa;
+  border: 1px solid #eee;
+  border-bottom-width: 4px;
+  padding: 30px;
+  margin-bottom: 30px;
+  list-style: none;
+}
+.modul-13 .commentlist1 .comment img {
+  float: left;
+  margin-right: 15px;
+  border-radius: 50% 50% 50% 50%;
+}
+.modul-13 .commentlist1 img {
+  vertical-align: top;
+  max-width: 100%;
+  height: auto;
+}
+.modul-13 .commentlist1 .star-rating {
+  float: right;
+}
+.modul-13 .commentlist1 .woocommerce .star-rating {
+  font-family: 'FontAwesome';
+  overflow: hidden;
+  position: relative;
+  height: 14px;
+  line-height: 1;
+  letter-spacing: 1px;
+  font-size: 14px;
+  width: 70px;
+  color: #D1A054;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.modul-13 .commentlist1 .woocommerce .star-rating span {
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding-top: 1.5em;
+}
+.modul-13 .commentlist1 .woocommerce .star-rating span:before {
+  content: "\f005\f005\f005\f005\f005";
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+.modul-13 .commentlist1 .woocommerce .star-rating:before {
+  content: "\f005\f005\f005\f005\f005";
+  color: #d3ced2;
+  float: left;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.modul-13 .commentlist1 p {
+  line-height: 2.8;
+}
+.modul-13 .commentlist1 p {
+  margin: 0;
+}
