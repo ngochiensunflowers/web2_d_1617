@@ -1,0 +1,45 @@
+.modul4 .swiper-container {
+  position: relative;
+  overflow: hidden;
+  height: 470px;
+}
+.modul4 .swiper-container .table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.modul4 .swiper-container .details {
+  max-width: 570px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  z-index: 10;
+  background-color: rgba(240,240,240,0.95);
+  padding: 50px 30px 30px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+.modul4 .swiper-container h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.modul4 .swiper-container .swiper-slide {
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+  height: 470px;
+  padding: 60px 0;
+}
+.modul4 .swiper-container .center {
+  display: table;
+  height: 100%;
+  margin: 0 auto;
+}
+.modul4 .swiper-container .swiper-pagination {
+  bottom: 30px;
+}
+.modul4 .swiper-container .carousel-control .right {
+  left: auto;
+}
+.modul4 .swiper-container .carousel-control .right:hover {
+  background: none;
+}

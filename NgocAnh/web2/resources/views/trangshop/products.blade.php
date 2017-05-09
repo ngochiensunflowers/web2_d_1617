@@ -1,0 +1,11 @@
+<html>
+  @include('trangshop.head')
+<body>
+@include('trangshop.model0')
+@include('trangshop.model1')
+@include('trangshop.model10')
+@include('trangshop.model11')
+@include('trangshop.model7')
+@include('trangshop.model9')
+</body>  
+</html>

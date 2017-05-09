@@ -1,0 +1,12 @@
+.modul_06 .short-info {
+  background-color: #1b2024;
+  padding: 60px 0;
+  color: #fff;
+  text-align: center;
+}
+
+.modul_06 .short-info h2 {
+  font-size: 26px;
+  text-transform: uppercase;
+  margin: 0;
+}
